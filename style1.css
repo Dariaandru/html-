@@ -1,0 +1,30 @@
+
+.up {
+    /* margin-top: 100px; */
+    margin-inline: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    /* display: flex; */
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    padding-inline: 25px;
+    border: 1px solid black;
+}
+
+.text {
+    font-size: 100px;
+}
+.text1 {
+    font-size: 80px;
+}
+.pp {
+    font-size: 30px;
+
+}
+.bg {
+    background-color: aqua;
+}

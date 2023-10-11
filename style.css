@@ -1,0 +1,27 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.block_wrapper {
+    display: flex;
+    gap: 20px;
+
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   transition: all 1s ease-in-out; 
+}
+.block {
+    display: flex;
+    height: 400px; 
+    padding: 40px;
+    padding-inline: 25px;
+    border: 1px solid black;
+}
+@media screen and (max-width: 900px) 
+ {.block_wrapper{
+    grid-template-columns: 12fr 1fr 1fr; 
+ }
+    
+}
